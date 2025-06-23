@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: 'DEvmIb-utf8-patch-1'
 
       - name: Download emu-win-release.7z
         uses: robinraju/release-downloader@v1.6
